@@ -4,6 +4,11 @@ import java.util.Map;
 
 import utils.FileUtils;
 
+/**
+  This class loads FIND_REPLACE_DATA_FILE file which contains two words in a row separated by a colon there will any number
+  of such rows. The first word in each row is a word to be found INPUT_FILE and second word is the one that it needs to be 
+  replaced with in the file INPUT_FILE.
+*/
 public class AdvancedReplacer {
 
     static final String INPUT_FILE = "megaList.txt";
